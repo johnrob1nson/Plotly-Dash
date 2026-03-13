@@ -36,6 +36,8 @@ The application visualizes video game statistics for the **1990–2010** period 
 
 ```
 Plotly-Dash/
+├── assets/
+│   └── dashboard_preview.png
 ├── games_market_dash.py   # Main application file
 ├── games.csv              # Video game dataset
 ├── requirements.txt       # Python dependencies
@@ -65,3 +67,5 @@ python games_market_dash.py
 ```
 
 The app will be available at: **http://127.0.0.1:8050**
+
+<img src="assets/dashboard_preview.png" width="800" alt="Dashboard Preview">
